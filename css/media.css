@@ -1,0 +1,392 @@
+@media(max-width: 767px){
+    /*---------------------guide--------------------------*/
+    .guide {
+    padding-top: 3rem;
+    }
+    .guide-heading{
+    font-size: 4rem;
+    text-align: center;
+    }
+    .guide-astrology{
+    text-align: center;
+    }
+    .btn-guide {
+    display: block;
+    margin: auto;
+    }
+    .line {
+    margin: 4rem auto 4rem;
+    width: 90%;
+    }
+    .line::before {
+    left: 40%;
+    }
+    /*----------------about------------------*/
+    .about-line {
+    display: none;
+    }
+    .about-sub {
+    text-align: center;
+    }
+    .btn-about{
+    display: block;
+    margin: auto;
+    }
+    /*-----------zodiac-------------------*/
+    .zodiac-line {
+    width: 80%;
+    }
+    .zodiac-para {
+    padding: 0rem 0rem;
+    }
+    .zodiac-date {
+    text-align: center;
+    }
+    /*----------------service------------------------*/
+    .service {
+    padding: 6rem 0px 3rem;
+    }
+    .owl-nav {
+    text-align: center;
+    }
+    /*-------------------blog----------------------*/
+    .img-overlay{
+    height: 43%;
+    }
+    /*----------------footer-------------------*/
+    .footer-service {
+    text-align: center;
+    }
+    .footer-service li:first-child {
+    margin-bottom: 2rem;
+    }
+    /*-------------------------------------------------contact.html--------------------------------------------*/
+    /*----------------------form-------------------------*/
+    .contact {
+    padding-top: 7rem;
+    }
+    .form-action {
+    margin: 3rem 0rem;
+    padding: 3rem 1rem;
+    }
+    .btn-form {
+    width: 50%;
+    margin-left: 1rem;
+    }
+    /*------------------------------------------------blog.html-----------------------------------*/
+    /*----------------categories-------------------*/
+    .categories-astro {
+    display: grid;
+    justify-content: center;
+    }
+    .categories-astro li:last-child .line-astro {
+    display: none;
+    }
+    .categiries-read li:not(:last-child) {
+    margin-left: 3rem;
+    }
+    .categiries-read li:last-child {
+    margin-left: 6rem;
+    }
+    .get-cat-icon {
+    top: 46%;
+    }
+    /*-------------------tags-------------------------*/
+    .tags-video {
+    top: 36%;
+    left: 41%;
+    padding: 1rem;
+    font-size: 12px;
+    }
+    .tags-talk li {
+    padding: 1.3rem 20px;
+    text-align: center;
+    }
+    .tag-heading {
+    margin-top: 3rem;
+    }
+    .tags-quote {
+    top: 15px;
+    left: 15%;
+    }
+    .tags-list {
+    margin-bottom: 3rem;
+    }
+    /*---------------------------------------pages.html------------------------------------------*/
+    /*------------------our gallery---------------------------*/
+    .gallery-box {
+    grid-template-columns: 100%;
+    }
+    #service-slider .gallery-box-image:hover .over-img{
+    height: 83%;
+    }
+    /*------------benefits-------------*/
+    .benefits::before{
+    width: 100%;
+    }
+    .benefits{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    }
+    @media(min-width: 768px) and (max-width: 991px){
+    /* index.html  */
+    .about-sub {
+    text-align: center;
+    }
+    .btn-about {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    }
+    .zodiac-para {
+    padding: 0rem;
+    font-size: 16px;
+    }
+    #testimonial-slider .bg-color {
+    bottom: -7rem;
+    }
+    .service-car-info {
+    padding: 1rem 1rem 1rem;
+    }
+    .service-carousel {
+    font-size: 16px;
+    }
+    .service-info {
+    font-size: 16px;
+    }
+    .thumbnail-position {
+    padding: 0.5rem 0.8rem;
+    }
+    .service-link ul, .service-link h3{
+    margin-bottom: 0rem;
+    }
+    .service-car-info p {
+    font-size: 18px;
+    }
+    #productShop li {
+    margin-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    }
+    .btn-service {
+    padding: 0.2rem 1rem;
+    margin: -1rem auto;
+    }
+    .btn-service span {
+    padding: 4px 7px;
+    font-size: 14px;
+    }
+    .shadow-box {
+    padding: 1rem 1rem 2rem;
+    }
+    .img-overlay {
+    height: 53%;
+    }
+    #blog-slider .shadow-effect-2 .shadow-box h3 a {
+    font-size: 18px;
+    }
+    #blog-slider .shadow-effect-2 .shadow-box p {
+    margin: 12px 0 12px 0;
+    padding-right: 0rem;
+    }
+    #customers-testimonials .shadow-effect h5 {
+    padding: 0rem 0px 1rem;
+    font-size: 1.6rem;
+    }
+    /* blog.html  */
+    .categories-heading {
+    font-size: 20px;
+    }
+    .categiries-read li:last-child {
+    margin-left: 21rem;
+    }
+    .categories-info .tags-customer {
+    font-size: 16px;
+    }
+    /* pages.html  */
+    .image-hover {
+    height: 16rem;
+    }
+    .gallery-box {
+    grid-template-rows: 75px 110px 56px 70px;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    }
+    #service-slider .gallery-box-image:hover .over-img {
+    height: 102%;
+    bottom: 0px;
+    }
+    #colleagues-slider .shadow-effect-3 .shadow-colleagues h3 a {
+    font-size: 13px;
+    }
+    #colleagues-slider .shadow-colleagues {
+    padding: 0rem 0rem 0rem;
+    }
+    #colleagues-slider .colleagues-overlay {
+    height: 68%;
+    }
+    #colleagues-slider .shadow-effect-3 .shadow-colleagues p {
+    font-size: 16px;
+    margin: 0rem 0px 0.5rem;
+    }
+    #customers-testimonials .shadow-effect h3 {
+    font-size: 18px;
+    }
+    #customers-testimonials .shadow-effect h4 {
+    padding: 0rem 1rem;
+    }
+    /* contact.html  */
+    .form-action {
+    margin: 0rem 0rem;
+    padding: 2rem 2rem;
+    }
+    }
+    @media(min-width: 992px) and (max-width: 1199px){
+    /* index.html  */
+    .head-num-1 {
+    font-size: 16px;
+    letter-spacing: 0rem;
+    }
+    .head-num-2 {
+    font-size: 16px;
+    letter-spacing: 0rem;
+    }
+    .guide-heading {
+    font-size: 4rem;
+    }
+    .zodiac-para {
+    padding: 0rem 0rem;
+    }
+    .about-sub {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    .btn-about {
+    font-size: 16px;
+    padding: 0.6rem 2rem;
+    }
+    #testimonial-slider .bg-color {
+    bottom: -6rem;
+    }
+    #testimonial-slider .testimonial-content.quote {
+    padding: 1.3rem 0.4rem 1rem 0.6rem;
+    }
+    .service-car-info {
+    padding: 1rem 0.7rem 1rem;
+    }
+    .btn-service {
+    margin: -1rem auto;
+    padding: 0.6rem 1rem;
+    }
+    .box-1 {
+    padding: 2rem 1rem;
+    }
+    .box-2 {
+    padding: 2rem 1rem;
+    }
+    .btn-purchase {
+    padding: 0.5rem 0.3rem 0.5rem 0.8rem;
+    }
+    /* blog.html  */
+    .categiries-read li:last-child {
+    margin-left: 16rem;
+    }
+    .tags-box {
+    padding: 0px 1rem;
+    }
+    .tags-user {
+    font-size: 15px;
+    }
+    .categories-heading {
+    font-size: 18px;
+    }
+    .categories-info {
+    padding: 2rem 2rem;
+    }
+    .categories-info p {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    }
+    .categiries-read {
+    padding-bottom: 0rem;
+    }
+    .categories-astro li:last-child .line-astro {
+    width: 7rem;
+    }
+    .line-astro::before {
+    top: -0.1rem;
+    height: 0.4rem;
+    }
+    .get-categories {
+    padding: 1rem;
+    }
+    .get-categories h3{
+    font-size: 20px;
+    }
+    .testimonials {
+    margin-top: 0rem;
+    }
+    .categorie-info li:not(:first-child) a::before {
+    top: 40%;
+    }
+    .categorie-info li .cat-sub-info li a {
+    padding: 0.8rem 0px 0.8rem 4rem;
+    }
+    .categorie-info li:not(:first-child) .li-astro {
+    padding: 0.8rem 0px 0.8rem 2rem;
+    }
+    .categorie-info li .cat-sub-info li a::before {
+    top: 40%;
+    }
+    .categories-thumbnail {
+    margin-bottom: 1rem;
+    }
+    /* page.html  */
+    .image-hover {
+    height: 20rem;
+    }
+    .gallery-box {
+    grid-template-rows: 115px 124px 69px 55px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    }
+    #service-slider .gallery-box-image:hover .over-img {
+    height: 47%;
+    }
+    #service-slider .testimonial-name a {
+    font-size: 14px;
+    }
+    #service-slider .testimonial-content.quote {
+    padding: 1rem 0.3rem 1rem 0.4rem;
+    }
+    #service-slider .testimonial-item.equal-height.style-6 {
+    padding: 0px 0px 23rem;
+    height: 23rem;
+    }
+    #colleagues-slider .shadow-colleagues {
+    padding: 1rem 1rem 2rem;
+    }
+    #colleagues-slider .colleagues-overlay {
+    height: 52%;
+    }
+    /* contact.html  */
+    .form-action {
+    margin: 5rem 3rem;
+    }
+    }
+    @media(min-width: 1200px) and (max-width: 1400px){
+    /* index.html  */
+    .img-overlay {
+    height: 47%;
+    }
+    /* pages.html  */
+    .gallery-box {
+    grid-template-rows: 150px 150px 168px 148px;
+    }
+    .image-hover {
+    height: 30rem;
+    }
+    #service-slider .gallery-box-image:hover .over-img {
+    height: 50%;
+    }
+    }
